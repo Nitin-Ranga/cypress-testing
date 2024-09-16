@@ -11,7 +11,7 @@ describe('Resposive Test', function () {
       cy.viewport('iphone-xr') // 414 x 896
       cy.wait(3000)
      
-    });
+    });//NEW
 
       it('TC-2-> To check the website in I-Pad Responsive', function () {
         cy.viewport('ipad-2') // 768 x 1024
